@@ -28,7 +28,7 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   var kittensNew = [];
-  
+  return kittensNew;
 }
 
 function removeFirstKitten() {
