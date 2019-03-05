@@ -37,7 +37,7 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  
+  var kittensNew = 
 }
 
 //var cities = ["New York", "San Francisco"]
