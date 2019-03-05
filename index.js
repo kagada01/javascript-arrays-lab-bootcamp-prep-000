@@ -22,7 +22,7 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  kittens.concat("Broom");
+  var kittens = [...kitens, "Broom"];
   return kittens;
 }
 
@@ -40,3 +40,7 @@ function removeLastKitten() {
   
 }
 
+//var cities = ["New York", "San Francisco"]
+ 
+// we can assign it to the existing `cities` variable
+// cities = ["Philadelphia", ...cities]
