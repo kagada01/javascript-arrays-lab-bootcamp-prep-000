@@ -37,7 +37,8 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  var kittensNew = 
+  var kittensNew = kittens.slice(2);
+  return kittensNew;
 }
 
 //var cities = ["New York", "San Francisco"]
